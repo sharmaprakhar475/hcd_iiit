@@ -110,7 +110,7 @@
                             </svg>
                         </a>
                         <a aria-label="instagram hcd" rel='noopener noreferrer' href="https://www.instagram.com/hcd.iiitd" class="text-decoration-none" target="_blank">                    
-                            <img src="https://image.flaticon.com/icons/svg/174/174855.svg" style="height: 23px; width: 23px;">
+                            <img src="../static/images/insta_svg.svg" style="height: 23px; width: 23px;">
                         </a>
                     </li>
                 </ul>
@@ -179,8 +179,28 @@
                         </a>
                     </div>
                 </div>
+
+                <div class="dropdown d-none d-lg-block">
+                    <button class="btn text-pointer px-3 text-white font-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Events
+                    </button>
+                    <div class="border-0 btn btn-lg dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="h5 dropdown-item text-white" onmouseover="this.classList.remove('text-white');this.classList.add('text-dark');" onmouseout="this.classList.add('text-white');this.classList.remove('text-dark');" href="">
+                            Seminars
+                        </a>
+                        <a class="h5 dropdown-item text-white" onmouseover="this.classList.remove('text-white');this.classList.add('text-dark');" onmouseout="this.classList.add('text-white');this.classList.remove('text-dark');" href="">
+                            Workshops
+                        </a>
+                    </div>
+                </div>
+                <div class="dropdown d-none d-lg-block">
+                    <button class="btn text-pointer px-3 text-white font-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses
+                    </button>
+                    </div>>
+
             </div>
-            <a class="d-lg-block d-none mb-2" id="search" onmouseover="this.style.cursor='pointer'">
+            <!-- <a class="d-lg-block d-none mb-2" id="search" onmouseover="this.style.cursor='pointer'">
                 <div class="d-flex rounded input" style="position: relative;">
                     <form aria-label="Desktop Search" style="margin:0px; margin-top:4px; width: 300px;" action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
                         <input type="hidden" name="si" value="10569528">
@@ -193,7 +213,7 @@
                     </form>
                     <img src="/static/images/search.svg" height="30px" style="margin-top: 0.8em; position: absolute; left: 10px;" alt="Search Bar">
                 </div>
-            </a>
+            </a> -->
             <a onclick="togglemenu('null')" class="d-lg-none" onmouseover="this.style.cursor='pointer'">
                 <img id="nav_menu" src="/static/images/menu.svg" height="35px" alt="Navigation Menu">
             </a>

@@ -110,7 +110,7 @@
                             </svg>
                         </a>
                         <a aria-label="instagram hcd" rel='noopener noreferrer' href="https://www.instagram.com/hcd.iiitd" class="text-decoration-none" target="_blank">                    
-                            <img src="https://image.flaticon.com/icons/svg/174/174855.svg" style="height: 23px; width: 23px;">
+                            <img src="../static/images/insta_svg.svg" style="height: 23px; width: 23px;">
                         </a>
                     </li>
                 </ul>
@@ -179,8 +179,26 @@
                         </a>
                     </div>
                 </div>
+                <div class="dropdown d-none d-lg-block">
+                    <button class="btn text-pointer px-3 text-white font-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Events
+                    </button>
+                    <div class="border-0 btn btn-lg dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="h5 dropdown-item text-white" onmouseover="this.classList.remove('text-white');this.classList.add('text-dark');" onmouseout="this.classList.add('text-white');this.classList.remove('text-dark');" href="">
+                            Seminars
+                        </a>
+                        <a class="h5 dropdown-item text-white" onmouseover="this.classList.remove('text-white');this.classList.add('text-dark');" onmouseout="this.classList.add('text-white');this.classList.remove('text-dark');" href="">
+                            Workshops
+                        </a>
+                    </div>
+                </div>
+                <div class="dropdown d-none d-lg-block">
+                    <button class="btn text-pointer px-3 text-white font-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses
+                    </button>
+                </div>
             </div>
-            <a class="d-lg-block d-none mb-2" id="search" onmouseover="this.style.cursor='pointer'">
+            <!-- <a class="d-lg-block d-none mb-2" id="search" onmouseover="this.style.cursor='pointer'">
                 <div class="d-flex rounded input" style="position: relative;">
                     <form aria-label="Desktop Search" style="margin:0px; margin-top:4px; width: 300px;" action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
                         <input type="hidden" name="si" value="10569528">
@@ -193,7 +211,7 @@
                     </form>
                     <img src="/static/images/search.svg" height="30px" style="margin-top: 0.8em; position: absolute; left: 10px;" alt="Search Bar">
                 </div>
-            </a>
+            </a> -->
             <a onclick="togglemenu('null')" class="d-lg-none" onmouseover="this.style.cursor='pointer'">
                 <img id="nav_menu" src="/static/images/menu.svg" height="35px" alt="Navigation Menu">
             </a>
@@ -380,11 +398,1578 @@
     <div class="mt-5 d-flex flex-column align-items-center justify-content-center">
         <h4 class="mt-3 text-dark font-weight-bold animated fadeIn">B.Tech. Students</h4>
         <div class="bt-group d-flex flex-row">
+            <button onclick="show_batch('2021');" type="button" class="button-2021 mt-3 ml-1 btn btn-md btn-outline-green">Batch: 2021</button>
+            <button onclick="show_batch('2020');" type="button" class="button-2020 mt-3 ml-1 btn btn-md btn-outline-green">Batch: 2020</button>
             <button onclick="show_batch('2019');" type="button" class="button-2019 mt-3 ml-1 btn btn-md btn-outline-green">Batch: 2019</button>
             <button onclick="show_batch('2018');" type="button" class="button-2018 mt-3 ml-1 btn btn-md btn-outline-green">Batch: 2018</button>
             <button onclick="show_batch('2017');" type="button" class="button-2017 mt-3 ml-1 btn btn-md btn-outline-green">Batch: 2017</button>
         </div>
     </div>
+
+    <div class="mt-5 animated faster fadeIn students 2021">
+        <div id="students_2021" class="row d-md-flex align-items-center justify-content-center text-left pl-md-3 mt-5">
+            <h4 class="mt-3 text-dark font-weight-bold animated fadeIn">B.Tech CSD 2021</h4>
+        </div>
+        <div class="row d-md-flex align-items-center justify-content-center text-left pl-md-3 mt-1">
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">AARAV BALACHANDRAN</h6>
+                    <a class="border-bottom" href="mailto:aarav21302@iiitd.ac.in">
+                        <small class="text-dark">
+                            aarav21302@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">ABHINAV SHARMA</h6>
+                    <a class="border-bottom" href="mailto:abhinav21303@iiitd.ac.in">
+                        <small class="text-dark">
+                            abhinav21303@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">ADITYA DAIPURIA</h6>
+                    <a class="border-bottom" href="mailto:aditya21304@iiitd.ac.in">
+                        <small class="text-dark">
+                            aditya21304@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">ADITYA JAIN</h6>
+                    <a class="border-bottom" href="mailto:aditya21305@iiitd.ac.in">
+                        <small class="text-dark">
+                            aditya21305@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">AGAMDEEP SINGH MANCHANDA</h6>
+                    <a class="border-bottom" href="mailto:agamdeep21306@iiitd.ac.in">
+                        <small class="text-dark">
+                            agamdeep21306@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">AKARSH GUPTA</h6>
+                    <a class="border-bottom" href="mailto:akarsh21307@iiitd.ac.in">
+                        <small class="text-dark">
+                            akarsh21307@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">AKSHMIT DEWAN</h6>
+                    <a class="border-bottom" href="mailto:akshmit21308@iiitd.ac.in">
+                        <small class="text-dark">
+                            akshmit21308@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">AMIL BHAGAT</h6>
+                    <a class="border-bottom" href="mailto:amil21309@iiitd.ac.in">
+                        <small class="text-dark">
+                            amil21309@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">ANKIT KUMAR SINGH</h6>
+                    <a class="border-bottom" href="mailto:ankit21310@iiitd.ac.in">
+                        <small class="text-dark">
+                            ankit21310@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">ANKIT RAJ</h6>
+                    <a class="border-bottom" href="mailto:ankit21311@iiitd.ac.in">
+                        <small class="text-dark">
+                            ankit21311@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">ANNU KUMARI</h6>
+                    <a class="border-bottom" href="mailto:annu21312@iiitd.ac.in">
+                        <small class="text-dark">
+                            annu21312@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">ARJUN MOITRA</h6>
+                    <a class="border-bottom" href="mailto:arjun21313@iiitd.ac.in">
+                        <small class="text-dark">
+                            arjun21313@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">ARYAN GUPTA</h6>
+                    <a class="border-bottom" href="mailto:aryan21314@iiitd.ac.in">
+                        <small class="text-dark">
+                            aryan21314@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">ARYAN MALIK</h6>
+                    <a class="border-bottom" href="mailto:aryan21315@iiitd.ac.in">
+                        <small class="text-dark">
+                            aryan21315@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">BHAVYA NARNOLI</h6>
+                    <a class="border-bottom" href="mailto:bhavya21316@iiitd.ac.in">
+                        <small class="text-dark">
+                            bhavya21316@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">BISWASMITA MISHRA</h6>
+                    <a class="border-bottom" href="mailto:biswasmita21317@iiitd.ac.in">
+                        <small class="text-dark">
+                            biswasmita21317@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">CHETI REDDY SREEKAR REDDY</h6>
+                    <a class="border-bottom" href="mailto:cheti21318@iiitd.ac.in">
+                        <small class="text-dark">
+                            cheti21318@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">DEEPAK THAPPA</h6>
+                    <a class="border-bottom" href="mailto:deepak21319@iiitd.ac.in">
+                        <small class="text-dark">
+                            deepak21319@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">DEVANK SINGH</h6>
+                    <a class="border-bottom" href="mailto:devank21320@iiitd.ac.in">
+                        <small class="text-dark">
+                            devank21320@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">DIVYANSH KAUSHAL</h6>
+                    <a class="border-bottom" href="mailto:divyansh21321@iiitd.ac.in">
+                        <small class="text-dark">
+                            divyansh21321@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">HARSH BHARDWAJ</h6>
+                    <a class="border-bottom" href="mailto:harsh21322@iiitd.ac.in">
+                        <small class="text-dark">
+                            harsh21322@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">HIMANSHU CHAUHAN</h6>
+                    <a class="border-bottom" href="mailto:himanshu21323@iiitd.ac.in">
+                        <small class="text-dark">
+                            himanshu21323@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">ISHAAN CHAUHAN</h6>
+                    <a class="border-bottom" href="mailto:ishaan21324@iiitd.ac.in">
+                        <small class="text-dark">
+                            ishaan21324@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">KANISHK GOEL</h6>
+                    <a class="border-bottom" href="mailto:kanishk21325@iiitd.ac.in">
+                        <small class="text-dark">
+                            kanishk21325@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">KARTIKAY DUBEY</h6>
+                    <a class="border-bottom" href="mailto:kartikay21326@iiitd.ac.in">
+                        <small class="text-dark">
+                            kartikay21326@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">KARTIKYE PRASAD</h6>
+                    <a class="border-bottom" href="mailto:kartikye21327@iiitd.ac.in">
+                        <small class="text-dark">
+                            kartikye21327@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">KULDEEP SINGH</h6>
+                    <a class="border-bottom" href="mailto:kuldeep21328@iiitd.ac.in">
+                        <small class="text-dark">
+                            kuldeep21328@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">KUMAR SAKSHAM</h6>
+                    <a class="border-bottom" href="mailto:saksham21329@iiitd.ac.in">
+                        <small class="text-dark">
+                            saksham21329@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">KUNAL</h6>
+                    <a class="border-bottom" href="mailto:kunal21330@iiitd.ac.in">
+                        <small class="text-dark">
+                            kunal21330@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">KUNAL SHARMA</h6>
+                    <a class="border-bottom" href="mailto:kunal21331@iiitd.ac.in">
+                        <small class="text-dark">
+                            kunal21331@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">LUZIA XAVIER MANUEL</h6>
+                    <a class="border-bottom" href="mailto:luzia21332@iiitd.ac.in">
+                        <small class="text-dark">
+                            luzia21332@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">MADHAV KRISHAN GARG</h6>
+                    <a class="border-bottom" href="mailto:madhav21333@iiitd.ac.in">
+                        <small class="text-dark">
+                            madhav21333@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">MAHANSH ADITYA</h6>
+                    <a class="border-bottom" href="mailto:mahansh21334@iiitd.ac.in">
+                        <small class="text-dark">
+                            mahansh21334@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">MANAN CHUGH</h6>
+                    <a class="border-bottom" href="mailto:manan21335@iiitd.ac.in">
+                        <small class="text-dark">
+                            manan21335@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">MANIK SHARMA</h6>
+                    <a class="border-bottom" href="mailto:manik21336@iiitd.ac.in">
+                        <small class="text-dark">
+                            manik21336@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">MEGHA</h6>
+                    <a class="border-bottom" href="mailto:megha21337@iiitd.ac.in">
+                        <small class="text-dark">
+                            megha21337@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">MEGHA ARORA</h6>
+                    <a class="border-bottom" href="mailto:megha21338@iiitd.ac.in">
+                        <small class="text-dark">
+                            megha21338@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">MOHIT GUPTA</h6>
+                    <a class="border-bottom" href="mailto:mohit21339@iiitd.ac.in">
+                        <small class="text-dark">
+                            mohit21339@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">PARAM KUMAR RAMAN</h6>
+                    <a class="border-bottom" href="mailto:param21340@iiitd.ac.in">
+                        <small class="text-dark">
+                            param21340@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">PARTH BARTHWAL</h6>
+                    <a class="border-bottom" href="mailto:parth21341@iiitd.ac.in">
+                        <small class="text-dark">
+                            parth21341@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">PARTH GANJOO</h6>
+                    <a class="border-bottom" href="mailto:parth21342@iiitd.ac.in">
+                        <small class="text-dark">
+                            parth21342@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">POORVI KUMAR</h6>
+                    <a class="border-bottom" href="mailto:poorvi21343@iiitd.ac.in">
+                        <small class="text-dark">
+                            poorvi21343@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">PRABAL</h6>
+                    <a class="border-bottom" href="mailto:prabal21344@iiitd.ac.in">
+                        <small class="text-dark">
+                            prabal21344@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">PRAJNA VOHRA</h6>
+                    <a class="border-bottom" href="mailto:prajna21345@iiitd.ac.in">
+                        <small class="text-dark">
+                            prajna21345@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">PRASHASTI GUPTA</h6>
+                    <a class="border-bottom" href="mailto:prashasti21346@iiitd.ac.in">
+                        <small class="text-dark">
+                            prashasti21346@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">PRATHAM SINGHAL</h6>
+                    <a class="border-bottom" href="mailto:pratham21347@iiitd.ac.in">
+                        <small class="text-dark">
+                            pratham21347@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">SADAF NOORI</h6>
+                    <a class="border-bottom" href="mailto:sadaf21348@iiitd.ac.in">
+                        <small class="text-dark">
+                            sadaf21348@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">SAMAR VINOD SHAH</h6>
+                    <a class="border-bottom" href="mailto:samar21349@iiitd.ac.in">
+                        <small class="text-dark">
+                            samar21349@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">SARVAGYA KAUSHIK</h6>
+                    <a class="border-bottom" href="mailto:sarvagya21350@iiitd.ac.in">
+                        <small class="text-dark">
+                            sarvagya21350@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">SAUMYA</h6>
+                    <a class="border-bottom" href="mailto:saumya21351@iiitd.ac.in">
+                        <small class="text-dark">
+                            saumya21351@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">SHIVAM DWIVEDI</h6>
+                    <a class="border-bottom" href="mailto:shivam21352@iiitd.ac.in">
+                        <small class="text-dark">
+                            shivam21352@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">SHRUTI GUPTA</h6>
+                    <a class="border-bottom" href="mailto:shruti21353@iiitd.ac.in">
+                        <small class="text-dark">
+                            shruti21353@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">SHUBHAM ATTRI</h6>
+                    <a class="border-bottom" href="mailto:shubham21354@iiitd.ac.in">
+                        <small class="text-dark">
+                            shubham21354@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">SIDDHARTH GUPTA</h6>
+                    <a class="border-bottom" href="mailto:siddharth21355@iiitd.ac.in">
+                        <small class="text-dark">
+                            siddharth21355@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">SUVRAT PRASAD</h6>
+                    <a class="border-bottom" href="mailto:suvrat21356@iiitd.ac.in">
+                        <small class="text-dark">
+                            suvrat21356@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">SWASTIK SWARAJ</h6>
+                    <a class="border-bottom" href="mailto:swastik21357@iiitd.ac.in">
+                        <small class="text-dark">
+                            swastik21357@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">T SANDEEP</h6>
+                    <a class="border-bottom" href="mailto:sandeep21358@iiitd.ac.in">
+                        <small class="text-dark">
+                            sandeep21358@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">TANMAY GUPTA</h6>
+                    <a class="border-bottom" href="mailto:tanmay21359@iiitd.ac.in">
+                        <small class="text-dark">
+                            tanmay21359@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">TONY THOMAS</h6>
+                    <a class="border-bottom" href="mailto:tony21360@iiitd.ac.in">
+                        <small class="text-dark">
+                            tony21360@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">TRILOK SINGH</h6>
+                    <a class="border-bottom" href="mailto:trilok21361@iiitd.ac.in">
+                        <small class="text-dark">
+                            trilok21361@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">V BHARATH KRISHNA</h6>
+                    <a class="border-bottom" href="mailto:bharath21362@iiitd.ac.in">
+                        <small class="text-dark">
+                            bharath21362@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div><div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">VANSH</h6>
+                    <a class="border-bottom" href="mailto:vansh21363@iiitd.ac.in">
+                        <small class="text-dark">
+                            vansh21363@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div><div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">VIDUR GOEL</h6>
+                    <a class="border-bottom" href="mailto:vidur21364@iiitd.ac.in">
+                        <small class="text-dark">
+                            vidur21364@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div><div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">VIJAY HOODA</h6>
+                    <a class="border-bottom" href="mailto:vijay21365@iiitd.ac.in">
+                        <small class="text-dark">
+                            vijay21365@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div><div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">YAJAT GUPTA</h6>
+                    <a class="border-bottom" href="mailto:yajat21366@iiitd.ac.in">
+                        <small class="text-dark">
+                            yajat21366@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div><div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">YAKSH MUKESH KUMAR PATEL</h6>
+                    <a class="border-bottom" href="mailto:yaksh21367@iiitd.ac.in">
+                        <small class="text-dark">
+                            yaksh21367@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div><div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">YASH CHAUHAN</h6>
+                    <a class="border-bottom" href="mailto:yash21368@iiitd.ac.in">
+                        <small class="text-dark">
+                            yash21368@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="mt-5 animated faster fadeIn students 2020">
+        <div id="students_2020" class="row d-md-flex align-items-center justify-content-center text-left pl-md-3 mt-5">
+            <h4 class="mt-3 text-dark font-weight-bold animated fadeIn">B.Tech CSD 2020</h4>
+        </div>
+        <div class="row d-md-flex align-items-center justify-content-center text-left pl-md-3 mt-1">
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Abhinav  Rana</h6>
+                    <a class="border-bottom" href="mailto:abhinav20353@iiitd.ac.in">
+                        <small class="text-dark">
+                            abhinav20353@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Aditi  </h6>
+                    <a class="border-bottom" href="mailto:aditi20354@iiitd.ac.in">
+                        <small class="text-dark">
+                            aditi20354@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Aditya  Peer</h6>
+                    <a class="border-bottom" href="mailto:aditya20355@iiitd.ac.in">
+                        <small class="text-dark">
+                            aditya20355@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Akshit  Mitra</h6>
+                    <a class="border-bottom" href="mailto:akshit20356@iiitd.ac.in">
+                        <small class="text-dark">
+                            akshit20356@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Alvin Joseph Ambooken</h6>
+                    <a class="border-bottom" href="mailto:alvin20357@iiitd.ac.in">
+                        <small class="text-dark">
+                            alvin20357@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Ambuj Bhaskar Tiwari</h6>
+                    <a class="border-bottom" href="mailto:ambuj20358@iiitd.ac.in">
+                        <small class="text-dark">
+                            ambuj20358@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Ananya  Sharma</h6>
+                    <a class="border-bottom" href="mailto:ananya20359@iiitd.ac.in">
+                        <small class="text-dark">
+                            ananya20359@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Aniketh  Garikaparthi</h6>
+                    <a class="border-bottom" href="mailto:aniketh20360@iiitd.ac.in">
+                        <small class="text-dark">
+                            aniketh20360@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Anshul  Goswami</h6>
+                    <a class="border-bottom" href="mailto:anshul20361@iiitd.ac.in">
+                        <small class="text-dark">
+                            anshul20361@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Anusha  Tiwari</h6>
+                    <a class="border-bottom" href="mailto:anusha20362@iiitd.ac.in">
+                        <small class="text-dark">
+                            anusha20362@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Arnav Kumar Palia</h6>
+                    <a class="border-bottom" href="mailto:arnav20363@iiitd.ac.in">
+                        <small class="text-dark">
+                            arnav20363@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Ashish  Kamathi</h6>
+                    <a class="border-bottom" href="mailto:ashish20364@iiitd.ac.in">
+                        <small class="text-dark">
+                            ashish20364@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Ayush  </h6>
+                    <a class="border-bottom" href="mailto:ayush20365@iiitd.ac.in">
+                        <small class="text-dark">
+                            ayush20365@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Bharat  Yadav</h6>
+                    <a class="border-bottom" href="mailto:bharat20366@iiitd.ac.in">
+                        <small class="text-dark">
+                            bharat20366@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Chirag  Malhotra</h6>
+                    <a class="border-bottom" href="mailto:chirag20367@iiitd.ac.in">
+                        <small class="text-dark">
+                            chirag20367@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Cyrus  Monteiro</h6>
+                    <a class="border-bottom" href="mailto:cyrus20368@iiitd.ac.in">
+                        <small class="text-dark">
+                            cyrus20368@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Daevaang  Khairwal</h6>
+                    <a class="border-bottom" href="mailto:daevaang20369@iiitd.ac.in">
+                        <small class="text-dark">
+                            daevaang20369@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Deep  Sharma</h6>
+                    <a class="border-bottom" href="mailto:deep20370@iiitd.ac.in">
+                        <small class="text-dark">
+                            deep20370@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Deeptanshu  </h6>
+                    <a class="border-bottom" href="mailto:deeptanshu20371@iiitd.ac.in">
+                        <small class="text-dark">
+                            deeptanshu20371@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Devansh  Tripathi</h6>
+                    <a class="border-bottom" href="mailto:devansh20372@iiitd.ac.in">
+                        <small class="text-dark">
+                            devansh20372@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Dhruv  Malik</h6>
+                    <a class="border-bottom" href="mailto:dhruv20373@iiitd.ac.in">
+                        <small class="text-dark">
+                            dhruv20373@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Digant  Tyagi</h6>
+                    <a class="border-bottom" href="mailto:digant20374@iiitd.ac.in">
+                        <small class="text-dark">
+                            digant20374@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Donthireddy Manoj Reddy</h6>
+                    <a class="border-bottom" href="mailto:donthireddy20375@iiitd.ac.in">
+                        <small class="text-dark">
+                            donthireddy20375@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Garima  Chopra</h6>
+                    <a class="border-bottom" href="mailto:garima20376@iiitd.ac.in">
+                        <small class="text-dark">
+                            garima20376@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Guntupalli  Jaideep</h6>
+                    <a class="border-bottom" href="mailto:guntupalli20378@iiitd.ac.in">
+                        <small class="text-dark">
+                            guntupalli20378@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Ipsita  R</h6>
+                    <a class="border-bottom" href="mailto:ipsita20379@iiitd.ac.in">
+                        <small class="text-dark">
+                            ipsita20379@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Jatin  Tyagi</h6>
+                    <a class="border-bottom" href="mailto:jatin20381@iiitd.ac.in">
+                        <small class="text-dark">
+                            jatin20381@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Kabir Singh Mehrok</h6>
+                    <a class="border-bottom" href="mailto:kabir20382@iiitd.ac.in">
+                        <small class="text-dark">
+                            kabir20382@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Karan Manoj Singh</h6>
+                    <a class="border-bottom" href="mailto:karan20383@iiitd.ac.in">
+                        <small class="text-dark">
+                            karan20383@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Kritarth  </h6>
+                    <a class="border-bottom" href="mailto:kritarth20384@iiitd.ac.in">
+                        <small class="text-dark">
+                            kritarth20384@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Kunal  Shrivastva</h6>
+                    <a class="border-bottom" href="mailto:kunal20385@iiitd.ac.in">
+                        <small class="text-dark">
+                            kunal20385@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Lakavath Vasanth Kumar</h6>
+                    <a class="border-bottom" href="mailto:lakavath20386@iiitd.ac.in">
+                        <small class="text-dark">
+                            lakavath20386@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Mayank  Kaim</h6>
+                    <a class="border-bottom" href="mailto:mayank20387@iiitd.ac.in">
+                        <small class="text-dark">
+                            mayank20387@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Mohammad Amaan Khan</h6>
+                    <a class="border-bottom" href="mailto:amaan20388@iiitd.ac.in">
+                        <small class="text-dark">
+                            amaan20388@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Mrishika Kannan Nair</h6>
+                    <a class="border-bottom" href="mailto:mrishika20389@iiitd.ac.in">
+                        <small class="text-dark">
+                            mrishika20389@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Neev  Swarnakar</h6>
+                    <a class="border-bottom" href="mailto:neev20390@iiitd.ac.in">
+                        <small class="text-dark">
+                            neev20390@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Nishtha  Biswas</h6>
+                    <a class="border-bottom" href="mailto:nishtha20391@iiitd.ac.in">
+                        <small class="text-dark">
+                            nishtha20391@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Paridhi  Mundra</h6>
+                    <a class="border-bottom" href="mailto:paridhi20392@iiitd.ac.in">
+                        <small class="text-dark">
+                            paridhi20392@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Prajeet Prabhat Sahoo</h6>
+                    <a class="border-bottom" href="mailto:prajeet20393@iiitd.ac.in">
+                        <small class="text-dark">
+                            prajeet20393@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Prakhar  Bhargava</h6>
+                    <a class="border-bottom" href="mailto:prakhar20394@iiitd.ac.in">
+                        <small class="text-dark">
+                            prakhar20394@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Pranav  Sharma</h6>
+                    <a class="border-bottom" href="mailto:pranav20395@iiitd.ac.in">
+                        <small class="text-dark">
+                            pranav20395@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Pratyush  Jain</h6>
+                    <a class="border-bottom" href="mailto:pratyush20396@iiitd.ac.in">
+                        <small class="text-dark">
+                            pratyush20396@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Rahul  </h6>
+                    <a class="border-bottom" href="mailto:rahul20398@iiitd.ac.in">
+                        <small class="text-dark">
+                            rahul20398@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Rishabh  Jain</h6>
+                    <a class="border-bottom" href="mailto:rishabh20399@iiitd.ac.in">
+                        <small class="text-dark">
+                            rishabh20399@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Rohan  Mishra</h6>
+                    <a class="border-bottom" href="mailto:rohan20400@iiitd.ac.in">
+                        <small class="text-dark">
+                            rohan20400@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Sai Leela Rahul Pujari</h6>
+                    <a class="border-bottom" href="mailto:sai20401@iiitd.ac.in">
+                        <small class="text-dark">
+                            sai20401@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Saksham  Lall</h6>
+                    <a class="border-bottom" href="mailto:saksham20402@iiitd.ac.in">
+                        <small class="text-dark">
+                            saksham20402@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Sarthak  Daksh</h6>
+                    <a class="border-bottom" href="mailto:sarthak20403@iiitd.ac.in">
+                        <small class="text-dark">
+                            sarthak20403@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Saumik  Shashwat</h6>
+                    <a class="border-bottom" href="mailto:saumik20404@iiitd.ac.in">
+                        <small class="text-dark">
+                            saumik20404@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Shah Eshang Devesh</h6>
+                    <a class="border-bottom" href="mailto:eshang20405@iiitd.ac.in">
+                        <small class="text-dark">
+                            eshang20405@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Shivam  Gupta</h6>
+                    <a class="border-bottom" href="mailto:shivam20406@iiitd.ac.in">
+                        <small class="text-dark">
+                            shivam20406@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Shoumik  Lodh</h6>
+                    <a class="border-bottom" href="mailto:shoumik20407@iiitd.ac.in">
+                        <small class="text-dark">
+                            shoumik20407@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Shrugal  Tayal</h6>
+                    <a class="border-bottom" href="mailto:shrugal20408@iiitd.ac.in">
+                        <small class="text-dark">
+                            shrugal20408@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Srishti  Singh</h6>
+                    <a class="border-bottom" href="mailto:srishti20409@iiitd.ac.in">
+                        <small class="text-dark">
+                            srishti20409@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Syed Arslan Hasan</h6>
+                    <a class="border-bottom" href="mailto:syed20410@iiitd.ac.in">
+                        <small class="text-dark">
+                            syed20410@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Tanishqa Shital Singh</h6>
+                    <a class="border-bottom" href="mailto:tanishqa20411@iiitd.ac.in">
+                        <small class="text-dark">
+                            tanishqa20411@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Valupadasu Devi Sri Charan</h6>
+                    <a class="border-bottom" href="mailto:valupadasu20412@iiitd.ac.in">
+                        <small class="text-dark">
+                            valupadasu20412@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Vishnu  Shon</h6>
+                    <a class="border-bottom" href="mailto:vishnu20414@iiitd.ac.in">
+                        <small class="text-dark">
+                            vishnu20414@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Yash  </h6>
+                    <a class="border-bottom" href="mailto:yash20415@iiitd.ac.in">
+                        <small class="text-dark">
+                            yash20415@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Yashwardhan  Chaudhuri</h6>
+                    <a class="border-bottom" href="mailto:yashwardhan20417@iiitd.ac.in">
+                        <small class="text-dark">
+                            yashwardhan20417@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Yuganshu  Kajla</h6>
+                    <a class="border-bottom" href="mailto:yuganshu20418@iiitd.ac.in">
+                        <small class="text-dark">
+                            yuganshu20418@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+            
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Ritick  Chaudhary</h6>
+                    <a class="border-bottom" href="mailto:ritick20460@iiitd.ac.in">
+                        <small class="text-dark">
+                            ritick20460@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" class="d-flex align-items-center p-3 my-3 ml-2 ml-sm-2 text-white-50 bg-purple rounded border" style="width: 300px;">
+                <img class="mr-3 rounded-circle" src="https://img.icons8.com/bubbles/50/000000/edit-user.png" alt="" width="48" height="48">
+                <div class="lh-100">
+                    <h6 class="text-green lh-100">Himanshi  Sethi</h6>
+                    <a class="border-bottom" href="mailto:himanshi20510@iiitd.ac.in">
+                        <small class="text-dark">
+                            himanshi20510@iiitd.ac.in
+                        </small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="mt-5 animated faster fadeIn students 2019">
         <div id="students_2019" class="row d-md-flex align-items-center justify-content-center text-left pl-md-3 mt-5">
             <h4 class="mt-3 text-dark font-weight-bold animated fadeIn">B.Tech CSD 2019</h4>
