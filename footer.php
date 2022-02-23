@@ -50,7 +50,7 @@
                     </li>
                 </ul>
             </div> 
-            <div class="col-12 col-md-3">
+            <!-- <div class="col-12 col-md-3">
                 <ul class="list-unstyled mt-3 mt-md-0">
                     <li class="h5 text-left text-white medium">
                         Design and Development By
@@ -62,7 +62,7 @@
                         <a rel="noopener noreferrer" class="text-center text-white medium" target="_blank" href="https://www.linkedin.com/in/digitalplayer1125/">Rishi Raj Jain</a>
                     </li>
                 </ul>
-            </div>    
+            </div>     -->
         </div>
         <div class="row justify-content-center">
             <div class="col">

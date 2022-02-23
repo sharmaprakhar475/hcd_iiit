@@ -107,22 +107,13 @@
                             </div>
                             <div class="mt-4 d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
-                                    <a aria-label="email hcd" rel='noopener noreferrer' href="mailto:jyoti@iiitd.ac.in" class="text-decoration-none mr-2" target="_blank">                    
+                                    <!-- <a aria-label="facebook hcd" rel='noopener noreferrer' href="mailto:jyoti@iiitd.ac.in" class="text-decoration-none mr-2" target="_blank">                    
                                         <svg height='30' width='30' id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 39.39 31.51"><defs><style>.cls-1{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="10.53" y1="24.6" x2="11.82" y2="24.6" gradientTransform="matrix(30, 0, 0, -24, -315, 609)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#48bd9f"/><stop offset="1" stop-color="#17becd"/></linearGradient></defs><path id="Icon_material-email" data-name="Icon material-email" class="cls-1" d="M35.71,2.94H4.2A3.94,3.94,0,0,0,.28,6.88l0,23.64A4,4,0,0,0,4.2,34.46H35.71a4,4,0,0,0,3.94-3.94V6.88A4,4,0,0,0,35.71,2.94Zm0,7.88L20,20.67,4.2,10.82V6.88L20,16.73,35.71,6.88Z" transform="translate(-0.26 -2.94)"/></svg>                                
+                                    </a> -->
+                                    <a aria-label="facebook hcd" rel='noopener noreferrer' href="https://www.facebook.com/binuann.joseph/" class="text-decoration-none mr-2" target="_blank">
+                                        <img  src="../static/facebook_hcd.svg" alt="facebook hcd">
                                     </a>
-                                    <a aria-label="twitter hcd" rel='noopener noreferrer' href="https://twitter.com/js_9228?lang=en" class="text-decoration-none mr-2" target="_blank">
-                                        <svg id="Group_657" data-name="Group 657" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 37.222 37.222">
-                                            <defs>
-                                            <linearGradient id="linear-gradient" x1="0.021" y1="0.527" x2="0.967" y2="0.5" gradientUnits="objectBoundingBox">
-                                                <stop offset="0" stop-color="#00d3a8"/>
-                                                <stop offset="1" stop-color="#01c0cf"/>
-                                            </linearGradient>
-                                            </defs>
-                                            <path id="Path_1256" data-name="Path 1256" d="M584.9,207.878a18.611,18.611,0,1,0-18.609,18.611A18.612,18.612,0,0,0,584.9,207.878Z" transform="translate(-547.678 -189.267)" fill="url(#linear-gradient)"/>
-                                            <path id="Path_1257" data-name="Path 1257" d="M598.352,233.355a8.66,8.66,0,0,1-2.329.624,4.551,4.551,0,0,0,1.89-2.351.07.07,0,0,0-.1-.086,8.682,8.682,0,0,1-2.658,1.017,4.362,4.362,0,0,0-3.238-1.445,4.509,4.509,0,0,0-4.434,4.576,4.792,4.792,0,0,0,.115,1.043,12.471,12.471,0,0,1-9.118-4.754.024.024,0,0,0-.04,0,4.706,4.706,0,0,0-.582,2.269,4.62,4.62,0,0,0,1.9,3.753.029.029,0,0,1-.016.052,4.325,4.325,0,0,1-1.878-.548.022.022,0,0,0-.034.021,6.463,6.463,0,0,0,.3,1.675,4.533,4.533,0,0,0,3.258,2.83,4.448,4.448,0,0,1-1.171.162,4.231,4.231,0,0,1-.8-.078.025.025,0,0,0-.028.034,4.464,4.464,0,0,0,4.055,3.134.028.028,0,0,1,.016.05,8.707,8.707,0,0,1-5.449,1.913,8.811,8.811,0,0,1-1.056-.063,12.276,12.276,0,0,0,6.8,2.055,12.019,12.019,0,0,0,8.308-3.144,13.571,13.571,0,0,0,4.008-7.114,13.155,13.155,0,0,0,.3-2.763c0-.2,0-.4-.014-.591a9.144,9.144,0,0,0,2.077-2.167A.07.07,0,0,0,598.352,233.355Z" transform="translate(-569.155 -220.541)" fill="#fff"/>
-                                        </svg>
-                                    </a>
-                                    <a aria-label="linkedin hcd" rel='noopener noreferrer' href="https://www.linkedin.com/in/jyoti-singh92" class="text-decoration-none mr-2" target="_blank">
+                                    <a aria-label="linkedin hcd" rel='noopener noreferrer' href="https://www.linkedin.com/in/binu-ann-joseph-ba889368/" class="text-decoration-none mr-2" target="_blank">
                                         <svg id="Group_664" data-name="Group 664" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 38.221 37.181">
                                             <defs>
                                             <linearGradient id="linear-gradient" x1="0.029" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
