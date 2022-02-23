@@ -138,7 +138,7 @@
                 </div>
             </div>
 
-            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" 
+            <!-- <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" 
             class="width-adjust d-flex align-items-center align-items-md-start flex-column text-center text-md-left p-3 my-3 mr-md-3 rounded border" 
             style="min-height: 370px;">
                 <img class="rounded-circle mr-md-4" src="../static/images/phd/Anupriya Tuli.svg" alt="" width="100" height="100">
@@ -150,14 +150,14 @@
                             anupriyat@iiitd.ac.in
                         </medium>
                     </a><div class="mt-2"></div>
-                    <!-- <small class="h6" style="color: rgb(95, 95, 95) !important;">
+                     <small class="h6" style="color: rgb(95, 95, 95) !important;">
                         Areas Of Study:<br>Leveraging ICT for Menstrual Health Education
                     </small> -->
-                    <div class="mt-3 d-flex align-items-center justify-content-center justify-content-md-start">
+                    <!-- <div class="mt-3 d-flex align-items-center justify-content-center justify-content-md-start">
                         <h6 class="text-green">Supervisor: Dr. Pushpendra Singh</h6>
                     </div>
                 </div>
-            </div>
+            </div> --> 
             
             <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" 
             class="width-adjust d-flex align-items-center align-items-md-start flex-column text-center text-md-left p-3 my-3 mr-md-3 rounded border" 
@@ -222,7 +222,7 @@
                 </div>
             </div>
             
-            <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" 
+            <!-- <div onmouseover="this.classList.add('shadow_hover');" onmouseout="this.classList.remove('shadow_hover')" 
             class="width-adjust d-flex align-items-center align-items-md-start flex-column text-center text-md-left p-3 my-3 mr-md-3 rounded border" 
             style="min-height: 370px;">
                 <img class="rounded-circle mr-md-4" src="../static/images/phd/Vishal Singh Sengar.svg" alt="" width="100" height="100">
@@ -234,14 +234,14 @@
                             vishals@iiitd.ac.in
                         </medium>
                     </a><div class="mt-2"></div>
-                    <!-- <small class="h6" style="color: rgb(95, 95, 95) !important;">
+                    <small class="h6" style="color: rgb(95, 95, 95) !important;">
                         Areas Of Study:<br>Human-Computer Interaction &amp; Product Design
                     </small> -->
-                    <div class="mt-3 d-flex align-items-center justify-content-center justify-content-md-start">
+                    <!-- <div class="mt-3 d-flex align-items-center justify-content-center justify-content-md-start">
                         <h6 class="text-green">Supervisor: Dr. Aman Parnami</h6>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
