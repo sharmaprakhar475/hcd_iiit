@@ -1,6 +1,6 @@
 <div style="height: 70px;"></div>
 <nav class="fixed-top" style="z-index: 998; background: black; height: 110px;">
-    <div class="py-1 container-fluid bg-white">
+    <div style="background: #40ada7;" class="py-1 container-fluid bg-white">
         <div class="container">
             <div class="row px-md-4 d-md-flex align-items-center justify-content-between" style="height: 30px;">
                 <ul class="list-unstyled">
@@ -40,7 +40,10 @@
     
     <div class="container mt-2">
         <div class="d-flex align-items-center justify-content-between" >
-            <a href="/"><img src="/static/images/logoleft.svg" style="height: 50px;" alt="Indraprastha Institute Of Information Technology, Delhi"><img class="ml-2" src="/static/images/HCDLOGO.png" style="height: 60px;" alt="Human Centered Design"></a>
+            <a href="/">
+                <img src="/static/images/logoleft.svg" style="height: 60px;" alt="Indraprastha Institute Of Information Technology, Delhi">
+                <img class="ml-2" src="/static/images/HCDLOGO.png" style="height: 45px;" alt="Human Centered Design">
+            </a>
             <div class="d-flex">
                 <div class="dropdown d-none d-lg-block">
                     <button class="btn text-pointer px-3 text-white font-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

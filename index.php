@@ -5,17 +5,15 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-    <title>Department of Human-Centered Design, IIIT-Delhi | Human-Centered Design @ IIIT-Delhi</title>
-    <meta name="title" property="title" content="Department of Human-Centered Design, IIIT-Delhi | Human-Centered Design @ IIIT-Delhi" />
-    <meta name="og:title" property="og:title" content="Department of Human-Centered Design, IIIT-Delhi | Human-Centered Design @ IIIT-Delhi" />
-    <meta name="twitter:title" property="twitter:title" content="Department of Human-Centered Design, IIIT-Delhi | Human-Centered Design @ IIIT-Delhi" />
-    <meta name="description" property="description" content="Welcome to IIIT Delhi’s Department of Human-Centered Design. With an increasing focus on user experience, the importance of Human-Computer Interaction (HCI), Interaction Design, and Design Thinking are also increasing rapidly in IT-based products and services. Digital media is at the heart of many aspects of design in areas like social media, gaming, virtual/augmented reality, etc." />
-    <meta name="og:description" property="og:description" content="Welcome to IIIT Delhi’s Department of Human-Centered Design. With an increasing focus on user experience, the importance of Human-Computer Interaction (HCI), Interaction Design, and Design Thinking are also increasing rapidly in IT-based products and services. Digital media is at the heart of many aspects of design in areas like social media, gaming, virtual/augmented reality, etc." />
-    <meta name="twitter:description" property="twitter:description" content="Welcome to IIIT Delhi’s Department of Human-Centered Design. With an increasing focus on user experience, the importance of Human-Computer Interaction (HCI), Interaction Design, and Design Thinking are also increasing rapidly in IT-based products and services. Digital media is at the heart of many aspects of design in areas like social media, gaming, virtual/augmented reality, etc." />
-    <meta name="og:url" property="og:url" content="https://hcd.iiitd.ac.in/" />
-    <meta name="twitter:url" property="twitter:url" content="https://hcd.iiitd.ac.in/" />
-
+        <title>Department of Human-Centered Design, IIIT-Delhi | Human-Centered Design @ IIIT-Delhi</title>
+        <meta name="title" property="title" content="Department of Human-Centered Design, IIIT-Delhi | Human-Centered Design @ IIIT-Delhi" />
+        <meta name="og:title" property="og:title" content="Department of Human-Centered Design, IIIT-Delhi | Human-Centered Design @ IIIT-Delhi" />
+        <meta name="twitter:title" property="twitter:title" content="Department of Human-Centered Design, IIIT-Delhi | Human-Centered Design @ IIIT-Delhi" />
+        <meta name="description" property="description" content="Welcome to IIIT Delhi’s Department of Human-Centered Design. With an increasing focus on user experience, the importance of Human-Computer Interaction (HCI), Interaction Design, and Design Thinking are also increasing rapidly in IT-based products and services. Digital media is at the heart of many aspects of design in areas like social media, gaming, virtual/augmented reality, etc." />
+        <meta name="og:description" property="og:description" content="Welcome to IIIT Delhi’s Department of Human-Centered Design. With an increasing focus on user experience, the importance of Human-Computer Interaction (HCI), Interaction Design, and Design Thinking are also increasing rapidly in IT-based products and services. Digital media is at the heart of many aspects of design in areas like social media, gaming, virtual/augmented reality, etc." />
+        <meta name="twitter:description" property="twitter:description" content="Welcome to IIIT Delhi’s Department of Human-Centered Design. With an increasing focus on user experience, the importance of Human-Computer Interaction (HCI), Interaction Design, and Design Thinking are also increasing rapidly in IT-based products and services. Digital media is at the heart of many aspects of design in areas like social media, gaming, virtual/augmented reality, etc." />
+        <meta name="og:url" property="og:url" content="https://hcd.iiitd.ac.in/" />
+        <meta name="twitter:url" property="twitter:url" content="https://hcd.iiitd.ac.in/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="fb:app_id" content="253706309095809" />
@@ -132,7 +130,7 @@
 </style>
 
 <!-- Swiper -->
-<div class="container mt-5">
+<div class="">
     <div class="swiper-container height-img">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -219,9 +217,9 @@
     </div>
 </div>
 
-<div style="height: 5px;" class="mt-5 container hcd-gradient"></div>
+<!-- <div style="height: 5px;" class="mt-5 container hcd-gradient"></div> -->
 
-<div class="container px-4 px-md-0 mt-4 py-5" style="border-top-width: 5px !important;">
+<!-- <div class="container px-4 px-md-0 mt-4 py-5" style="border-top-width: 5px !important;">
     <div class="row">
         <div class="col-12 d-sm-flex align-items-center justify-content-between px-0 px-md-5">
             <h3 class="text-green">
@@ -264,7 +262,7 @@
             </ul>
         </div>
     </div>
-</div>
+</div> -->
 
 <?php include 'footer.php'; ?>
       
