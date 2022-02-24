@@ -1,14 +1,14 @@
 <div style="height: 70px;"></div>
 <nav class="fixed-top" style="z-index: 998; background: black; height: 110px;">
-    <div style="background: #40ada7;" class="py-1 container-fluid bg-white">
-        <div class="container">
+    <div style="background: #40ada7;" class="py-1 container-fluid ">
+        <div class="container" >
             <div class="row px-md-4 d-md-flex align-items-center justify-content-between" style="height: 30px;">
                 <ul class="list-unstyled">
                     <li class="d-flex align-items-center justify-content-center">
                         <a aria-label="contact" href="/contact" class="no-transform-imp">
-                            <img alt="contact icon" class="ml-2 ml-md-1" src="/static/img/Icon%20metro-contacts-mail.svg">
+                            <img alt="contact icon" class="ml-2 ml-md-1" src="./static/images/contact_us_logo.png" style="height:25px;">
                         </a>
-                        <a aria-label="contact" href="/contact" class="text-green no-transform-imp">
+                        <a aria-label="contact" href="/contact" class="no-transform-imp" style="color:white;">
                             &nbsp;&nbsp;Contact Us
                         </a>
                     </li>
@@ -30,7 +30,7 @@
                             </svg>
                         </a>
                         <a aria-label="instagram hcd" rel='noopener noreferrer' href="https://www.instagram.com/hcdiiitd/" class="text-decoration-none" target="_blank">                    
-                            <img src="../static/images/insta_svg.svg" style="height: 23px; width: 23px;">
+                            <img src="./static/images/insta_logo.png" style="height: 23px; width: 23px;">
                         </a>
                     </li>
                 </ul>
