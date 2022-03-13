@@ -116,6 +116,16 @@
                     </div>
                 </div>
                 <div class="dropdown d-none d-lg-block">
+                    <button class="btn text-pointer px-3 text-white font-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                        Mission
+                    </button>
+                    <div class="border-0 btn btn-lg dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="h5 dropdown-item text-white" onmouseover="this.classList.remove('text-white');this.classList.add('text-dark');" onmouseout="this.classList.add('text-white');this.classList.remove('text-dark');"  href="./mission.php/">
+                            Mission & Vision
+                        </a>
+                    </div>
+                </div>    
+                <div class="dropdown d-none d-lg-block">
                     <button class="btn text-pointer px-3 text-white font-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Courses
                     </button>
@@ -249,6 +259,11 @@
                                 <p onclick="location.href='../staff/'">Staff</p>
                             </li>
                         </ul>
+                    </li>
+                    <li class="mt-3"> 
+                        <button  class="menu-option-3 btn btn-block btn-white btn-lg text-pointer rounded" onclick="location.href='./mission.php'">
+                            Mission & Vision
+                        </button>
                     </li>
                 </ul>      
             </div>
