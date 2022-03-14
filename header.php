@@ -120,7 +120,7 @@
                         Mission
                     </button>
                     <div class="border-0 btn btn-lg dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="h5 dropdown-item text-white" onmouseover="this.classList.remove('text-white');this.classList.add('text-dark');" onmouseout="this.classList.add('text-white');this.classList.remove('text-dark');"  href="./mission.php/">
+                    <a class="h5 dropdown-item text-white" onmouseover="this.classList.remove('text-white');this.classList.add('text-dark');" onmouseout="this.classList.add('text-white');this.classList.remove('text-dark');"  href="./mission.php">
                             Mission & Vision
                         </a>
                     </div>
